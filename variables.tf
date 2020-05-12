@@ -13,6 +13,7 @@ variable "project_name" {
 }
 
 # Remember to paste the one-line json into the variable value
-variable "google_credentials" {
+# Capital Letters required
+variable "GOOGLE_CREDENTIALS" {
   description = "GCP access credentials"
 }
