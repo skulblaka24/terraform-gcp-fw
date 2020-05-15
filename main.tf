@@ -5,7 +5,7 @@ provider "google" {
 }
 
 resource "google_compute_firewall" "allow-inbound-nginx" {
-  name    = "tf-demo1-allow-inbound-nginx"
+  name    = "tf-demo-allow-inbound-nginx"
   network = "default"
  
   allow {
